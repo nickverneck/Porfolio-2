@@ -22,29 +22,48 @@
   <link href="./assets/css/boxicons.min.css" rel="stylesheet">
   <link href="./assets/css/glightbox.min.css" rel="stylesheet">
   <link href="./assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- header with Name and navbar -->
-    <header>
-      <h2>NickV</h2>
+   
+      <!-- Mobile togle button -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    
+<!-- header -->
+<header id="header">
+  <div class="d-flex flex-column">
 
-      <nav>
-        <!-- nav links to the sections ids -->
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact-me">Contact Me</a></li>
-          <li><a href="./assets/Nickresume2020.pdf">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- hero contains image, wrap helps align the header with the rest of the layout -->
-    <div class="hero">
-      <div class="wrap">
-        <h3>Full Stack Developer</h3>
+    <div class="profile">
+      <img src="./assets/images/avatar.png" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="index.html">Nick Verneck</a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
+
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
     <main>
       <!-- This section contains the About me portion of the website -->
       <section id="about-me">
